@@ -4,7 +4,7 @@ from conans import ConanFile, CMake, tools
 
 
 class PatchelfinstallerTestConan(ConanFile):
-    build_requires = "cmake_installer/3.13.0@conan/stable"
+    # build_requires = "cmake_installer/3.13.0@conan/stable"
     settings = "os", "compiler", "build_type", "arch"
 
     def build(self):
