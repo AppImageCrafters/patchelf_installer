@@ -1,6 +1,6 @@
 env:
   global:
-    - CONAN_REFERENCE: "patchelf_installer/0.10"
+    - CONAN_REFERENCE: "patchelf_installer/0.9"
     - CONAN_USERNAME: "appimage-conan-community"
     - CONAN_LOGIN_USERNAME: "azubieta"
     - CONAN_CHANNEL: "stable"

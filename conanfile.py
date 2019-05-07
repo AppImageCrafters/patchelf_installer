@@ -3,7 +3,7 @@ import os
 
 class PatchelfinstallerConan(ConanFile):
     name = "patchelf_installer"
-    version = "0.10"
+    version = "0.9"
     license = "GPL v3.0"
     author = "Alexis Lopez Zubieta contact@azubieta.net"
     url = "https://github.com/appimage-conan-community/patchelf_installer"
@@ -13,7 +13,7 @@ class PatchelfinstallerConan(ConanFile):
     generators = "cmake"
 
     def source(self):
-        self.run("git clone https://github.com/NixOS/patchelf.git -b 0.10")
+        self.run("git clone https://github.com/NixOS/patchelf.git -b 0.9")
 
     def build(self):
         env_build = AutoToolsBuildEnvironment(self)
